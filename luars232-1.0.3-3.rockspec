@@ -1,7 +1,7 @@
 -- This file was automatically generated for the LuaDist project.
 
 package="luars232"
-version="1.0.3-1"
+version="1.0.3-3"
 
 description = {
    summary = "Serial (RS-232) support",
@@ -16,17 +16,17 @@ description = {
 
 -- LuaDist source
 source = {
-  tag = "1.0.3-1",
+  tag = "1.0.3-3",
   url = "git://github.com/LuaDist-testing/luars232.git"
 }
 -- Original source
 -- source = {
---    url = "git://github.com/ynezz/librs232.git",
---    tag = "v1.0.3",
+--    url = "https://github.com/ynezz/librs232/archive/v1.0.3.zip",
+--    dir = "librs232-1.0.3"
 -- }
 
 dependencies = {
-   "lua >= 5.1",
+   "lua ~> 5.1",
 }
 
 build = {
@@ -49,8 +49,5 @@ build = {
             }
          }
       }
-   },
-   copy_directories = {
-      "invalid"
-   },
+   }
 }
